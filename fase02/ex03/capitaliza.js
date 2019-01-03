@@ -1,8 +1,6 @@
 function capitaliza (palavra) {
-    
-    str = palavra
-    
-    return(str.toUpperCase(palavra) )
+        
+    return(palavra.toUpperCase(palavra) )
     
 }
 
