@@ -1,8 +1,8 @@
 function nomeDeVolta() {
 
-console.log ("O andróide paranóide")
+console.log ("Marvin")
 
-return ("Marvin")
+return ("O andróide paranóide")
 
 };
 
