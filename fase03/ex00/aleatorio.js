@@ -5,6 +5,5 @@ return Math.random ();
 
 }
 
-console.log (aleatorio())
 
     
