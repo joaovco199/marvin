@@ -1,11 +1,10 @@
 function inteiro (num) {
     
-    if (num % 1 === 0) {
-        console.log(true) }
+     if (num % 1 === 0) {
+      return (true) }
         else {
-            console.log(false);
+         return  (false);
             }
 }
 
 
-    
