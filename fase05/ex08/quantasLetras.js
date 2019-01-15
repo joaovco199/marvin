@@ -1,4 +1,4 @@
-function apenasPalvras(arr) {
+function quantasLetras(arr) {
 
 x = arr.length
 y = arr.toString()
