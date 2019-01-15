@@ -1,10 +1,10 @@
 function alfabetoMilitar(vogal) {
     
-    if (vogal === "a" || vogal === "A") return "Alpha"
+    if (vogal === "a" || vogal === "A") return "alpha"
     
-    else if (vogal === "e" || vogal === "E") return "Echo"
+    else if (vogal === "e" || vogal === "E") return "echo"
     
-    else if (vogal === "i" || vogal === "I") return "India"
+    else if (vogal === "i" || vogal === "I") return "india"
     
     else if (vogal === "o" || vogal === "O") return "Oscar"
     
