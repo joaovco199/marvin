@@ -6,9 +6,9 @@ function alfabetoMilitar(vogal) {
     
     else if (vogal === "i" || vogal === "I") return "india"
     
-    else if (vogal === "o" || vogal === "O") return "Oscar"
+    else if (vogal === "o" || vogal === "O") return "oscar"
     
-    else if (vogal === "u" || vogal === "U") return "Uniform"
+    else if (vogal === "u" || vogal === "U") return "uniform"
     
     else return false
     
