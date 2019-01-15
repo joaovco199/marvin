@@ -1,6 +1,9 @@
 function abc (letras) {
     
-    if  (letras.slice(0,1)==="a"||letras.slice(0,1)=== "b"||letras.slice(0,1)==="c")   
+   letras = letras.toLowerCase()
+    
+    if  (letras.slice(0,1)==="a"||letras.slice(0,1)=== "b"||
+    letras.slice(0,1)==="c")   
        
         return true;
        
@@ -10,4 +13,5 @@ function abc (letras) {
             
             
 }
+
 
