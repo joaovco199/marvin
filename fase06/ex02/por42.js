@@ -1,3 +1,4 @@
+
 function por42(n1, n2) {
     
     x = []
@@ -9,7 +10,14 @@ function por42(n1, n2) {
          if (y % 1 === 0) x.push(i)
     }
       
-        return x
+        if (x.length < 2 ) {
+            
+        console.log ("Não encontrado")
         
+        return false }
+        
+        else return x[1]
+              
 }
-
+        
+        
