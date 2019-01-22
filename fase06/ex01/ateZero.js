@@ -1,4 +1,4 @@
-function entreNumeros(num) {
+function ateZero(num) {
     
     z = [];
     
