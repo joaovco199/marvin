@@ -1,4 +1,4 @@
-function booleanos(arr) {
+function booleano(arr) {
         
     for ( i = 0; i <= arr.length; i++ ) {
         
