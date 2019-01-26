@@ -1,4 +1,4 @@
-function f(x) {
+function fibonacci(x) {
 
 var fib = [0,1]
 
