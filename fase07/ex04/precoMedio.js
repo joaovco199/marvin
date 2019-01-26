@@ -13,13 +13,12 @@ function precoMedio(arr) {
       var maior = Math.max.apply(null,array)
       var index = array.indexOf(maior)
       var caro = arr[index].nome
-      
-    console.log("O produto mais caro se chama " + "'" + caro + "'")
+     
+    console.log("O produto mais caro se chama " + "\"" + caro + "\"")
     
     return y/i;
 
 }
-
 
 
 
