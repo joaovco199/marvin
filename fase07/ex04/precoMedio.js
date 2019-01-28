@@ -1,8 +1,15 @@
-function precoMedio(arr) {
+function precoMedio() {
     var array = []
    var soma = 0 ;
    var aspas = ""
-    
+   
+  let arr = []  
+  
+  for (var i = 0; i < arguments.length; i++) {
+     arr.push(arguments[i])
+  }
+  
+
    for (i=0; i < arr.length ; i++ ) {
         
         x = arr[i].preco ;
@@ -20,6 +27,7 @@ function precoMedio(arr) {
     return y/i;
 
 }
+
 
 
 
