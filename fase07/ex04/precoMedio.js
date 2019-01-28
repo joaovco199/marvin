@@ -9,7 +9,6 @@ function precoMedio() {
      arr.push(arguments[i])
   }
   
-
    for (i=0; i < arr.length ; i++ ) {
         
         x = arr[i].preco ;
@@ -21,12 +20,13 @@ function precoMedio() {
       var maior = Math.max.apply(null,array)
       var index = array.indexOf(maior)
       aspas= arr[index].nome
-     
+      
     console.log("O produto mais caro se chama  \"" + aspas + "\"")
     
     return y/i;
 
 }
+
 
 
 
