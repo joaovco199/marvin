@@ -1,6 +1,7 @@
 function precoMedio(arr) {
     var array = []
    var soma = 0 ;
+   var aspas = ""
     
    for (i=0; i < arr.length ; i++ ) {
         
@@ -12,9 +13,9 @@ function precoMedio(arr) {
       
       var maior = Math.max.apply(null,array)
       var index = array.indexOf(maior)
-      var caro = arr[index].nome
+      aspas= arr[index].nome
      
-    console.log("O produto mais caro se chama  \"" + caro + "\"")
+    console.log("O produto mais caro se chama  \"" + aspas + "\"")
     
     return y/i;
 
