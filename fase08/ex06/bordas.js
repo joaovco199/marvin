@@ -22,4 +22,4 @@ else {x = 1}
     return i;
 }
 
-bordas (1,5);
+bordas (2,5);
