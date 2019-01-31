@@ -1,28 +1,25 @@
-function bordas (h,v) {
-arr = []
-    if (v === 1) {v = 2}
-else x = 1
-               
-        for ( i = 1; i < h; i++) {
-            
-            while (i <= 1) { 
-                console.log("A" + "B".repeat(v-2) + "C")
-                i++
-            }
-            while (i < h) {
-                console.log("B" + "O".repeat(v-2) + "B")
-                i++
-            }
-            if ( i===h) {console.log("C" + "B".repeat(v-2) + "A")
-            }
-            
-                
-    }
+function bordas(h, v) {
+if (h === 1) {h = 2; x = 0}
+else {x = 1}
+
+    for (i = 1; i < h; i++) {
     
-    return i
+        while (i <= 1) {
+            console.log("A" + "B".repeat(h-2) + "C".repeat(x));
+            i++;
+        }
+        
+        while (i < v) {
+            console.log("B" + "O".repeat(h-2) + "B".repeat(x));
+            i++;
+        }
+        
+        if (i === v) {
+            console.log("C" + "B".repeat(h-2) + "A".repeat(x));
+        }
+        
+    }
+    return i;
 }
-        
-        
 
-
-bordas(5,3)
+bordas (1,5);
