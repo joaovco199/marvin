@@ -1,24 +1,22 @@
 function bordas (h,v) {
 arr = []
-    for ( n = 1; n < v; i++) {
-                
+    if (v === 1) {v = 2}
+else x = 1
+               
         for ( i = 1; i < h; i++) {
+            
             while (i <= 1) { 
-                console.log("A")
+                console.log("A" + "B".repeat(v-2) + "C")
                 i++
             }
             while (i < h) {
-                console.log("B")
+                console.log("B" + "O".repeat(v-2) + "B")
                 i++
             }
-            if ( i===h) {console.log("C")
+            if ( i===h) {console.log("C" + "B".repeat(v-2) + "A")
             }
             
-            
-    }
-    
-    
-    
+                
     }
     
     return i
@@ -27,4 +25,4 @@ arr = []
         
 
 
-bordas(5,2)
+bordas(5,3)
