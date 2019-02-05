@@ -10,7 +10,7 @@ arr = []
         }
         
         while (i < v) {
-            arr.push("B" + "O".repeat(h-2) + "B".repeat(x));
+            arr.push("B" + "0".repeat(h-2) + "B".repeat(x));
             i++;
         }
         
