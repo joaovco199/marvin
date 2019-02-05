@@ -4,10 +4,11 @@ function segundaLetra (arr) {
        a = a.toLowerCase()
        b = b.toLowerCase()
        
-       if (a[1] > b[1]) return 1
+       if (a.slice(1) > b.slice(1)) return 1
        
-       if (a[1] < b[1]) return -1
+       if (a.slice(1) < b.slice(1)) return -1
    })
     
 }
+
 
