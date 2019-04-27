@@ -1,4 +1,11 @@
 function dezAVinte() {
     
-    return ((Math.floor(Math.random() * 20) +10));
+    x = Math.random()
+    y = (x*10)+10
+    z = y - Math.floor(y)
+        
+    if ( z < 0.5) return Math.floor(y)
+    else return Math.ceil(y)
+    
 }
+
