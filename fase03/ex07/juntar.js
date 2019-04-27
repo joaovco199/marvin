@@ -1,7 +1,8 @@
-function juntar(num1, num2) {
+function juntar(n1, n2) {
     
-    return num1 + "" + num2
+    x =Number( n1 + "" + n2)
+    
+    return x
     
 }
-
 
