@@ -1,9 +1,6 @@
-function aleatorio () {
-
-
-return Math.random ();
-
+function aleatorio() {
+    
+    return Math.random()
+    
 }
 
-
-    
